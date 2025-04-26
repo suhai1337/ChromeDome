@@ -1,0 +1,71 @@
+
+
+body {
+
+    background-color: aquamarine;
+
+}
+
+#mainbg{
+    background-color: red;
+}
+
+#logoBanner {
+    padding-left: 10px;
+    background-color: aqua;
+    outline: BLACK solid;
+    list-style-type: none;
+}
+
+#logo{
+    position:relative;
+    top: 15px;
+}
+
+li {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    display: block;
+}
+
+li h1{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navLink:hover{
+    background-color: brown;
+}
+
+#navLogIn{
+    float: right;
+    padding-right: 5px;
+}
+
+#mainContainer{
+    text-align: center;
+}
+
+.tileBanner{
+    height: 200px;
+    background-color: blueviolet;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#tile1{
+    background-color: rgba(255, 0, 0, 0.63);
+}
+#tile2{
+    background-color: rgba(0, 128, 0, 0.61);
+}
+#tile3{
+    background-color: rgba(0, 0, 255, 0.61);
+}
+#tile4{
+    background-color: rgba(100, 148, 237, 0.719);
+}
