@@ -1,4 +1,137 @@
 
 body{
     background-color: aquamarine;
+
+}
+
+#logoBanner {
+    padding-left: 10px;
+    background-color: aqua;
+    outline: BLACK solid;
+    list-style-type: none;
+}
+
+#logo{
+    position:relative;
+    top: 15px;
+}
+
+li {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    display: block;
+}
+
+li h1{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navLink:hover{
+    background-color: brown;
+}
+
+#navLogIn{
+    float: right;
+    padding-right: 5px;
+}
+
+#mainContainer{
+    text-align: center;
+}
+
+.tileBanner{
+    height: 200px;
+    background-color: blueviolet;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.smallimg{
+
+    width: 12.55%;
+    height: auto;
+    border: solid 1px black;
+    background-color: aqua;
+    opacity: .6;
+    
+    
+
+}
+
+.smallimg:hover{
+    opacity: 1;
+}
+
+#largeimg{
+    display: auto;
+    width: 66%;
+    height: auto;
+    outline: 1px solid black;
+
+    background-color: aliceblue;
+
+}
+
+#gallerycontainer{
+    display: flex;
+}
+
+#gallery{
+    margin-left: 10%;
+    width: 40%;
+
+}
+
+#schoolinfo li{
+    display: block;
+    line-height: 90px;
+
+    font-size: 44px;
+
+}
+
+#schoolinfo ul{
+    width: auto;
+    height: auto;
+
+    list-style-type: disc;
+}
+
+.bttab{
+    border: none;
+    outline: none;
+    float: left;
+    background-color: inherit;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: .3s;
+    font-size: 17px;
+}
+
+#bottomnav button:hover{
+    background-color: greenyellow;
+}
+
+#bottomnav button.active{
+    background-color: yellow;
+}
+
+#bottomnav{
+    outline: 4px solid green;
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+}
+
+.tabInfo{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid green;
+    border-top: none;
 }

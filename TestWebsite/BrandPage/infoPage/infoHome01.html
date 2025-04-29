@@ -1,29 +1,72 @@
 <html>
 
 <head>
-<title>Info Page</title>
+<title>Info Home</title>
 
 <link rel="stylesheet" href="infoHome01.css"></link>
 
-<script>
-</script>
 
+<script src="infoHome01.js"></script>
 
 </head>
 
 <body>
+<div id="container">
+    <div id="headerNav">
+        <ul id="logoBanner">
+            <!-- <li><img src="logo.png" id="logo" height="75px"></li> -->
+            <li><img src="logo.png" id="logo" height="50px"></li>
+            <li class="navLink"><a href="../../index.html"><h1>Home</h1></a></li>
+            <li class="navLink"><h1>Devices</h1></li>
+            <li class="navLink"><h1>Contact</h1></li>
+            <li class="navLink"><h1>About Us</h1></li>
+            <li class="navLink"><h1>Career</h1></li>
+            <li class="navLink" id="navLogIn"><h1>Login</h1></li>
+        </ul>
+    </div>
+    <div id="gallerycontainer">
+        <div id="gallery">
+            <img src="imgasset/galleryimg01.png" alt="image 01" id="largeimg" >
 
-    <ul id="logoBanner">
-        <!-- <li><img src="logo.png" id="logo" height="75px"></li> -->
-        <li><img src="logo.png" id="logo" height="50px"></li>
-         <li class="navLink"><a href="../../index.html"><h1>Home</h1></a></li>
-         <li class="navLink"><h1>Devices</h1></li>
-         <li class="navLink"><h1>Contact</h1></li>
-         <li class="navLink"><h1>About Us</h1></li>
-         <li class="navLink"><h1>Career</h1></li>
-         <li class="navLink" id="navLogIn"><h1>Login</h1></li>
-     </ul>
-
+            <div>
+                <img src="imgasset/galleryimg01.png" alt="image 01" class="smallimg" onclick="myFunction(this)">
+                <img src="imgasset/galleryimg02.png" alt="image 02" class="smallimg" onclick="myFunction(this)">
+                <img src="imgasset/galleryimg03.png" alt="image 03" class="smallimg" onclick="myFunction(this)">
+                <img src="imgasset/galleryimg04.png" alt="image 04" class="smallimg" onclick="myFunction(this)">
+                <img src="imgasset/galleryimg05.png" alt="image 05" class="smallimg" onclick="myFunction(this)">
+            </div>
+        </div>
+        <div id="galleryinfo">
+            <h1>Chromebook Duet Gen 9 (11"MediaTek)</h1>
+            <hr>
+            <div id="schoolinfo">
+                <ul>
+                    <li>Popular with *SCHOOL*</li>
+                    <li>Model Number is NX.02</li>
+                    <li>Recovery drive is HANA</li>
+                    <li>Graveyard Unit is YELLOW 6-5-1</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="bottomnav">
+        <button class="bttab" onclick="openInfo(event, 'schoolTab')">Schools</button>
+        <button class="bttab" onclick="openInfo(event, 'commonissueTab')">Common Issues</button>
+        <button class="bttab" onclick="openInfo(event, 'technicalissueTab')">Technical Issues</button>
+    </div>
+    <div class="tabInfo" id="schoolTab">
+        <h3>Schools</h3>
+        <p>These schools use this Chromebook</p>
+    </div>
+    <div class="tabInfo" id="commonissueTab">
+        <h3>Common Issues</h3>
+        <p>These are a bunch of common issues for the device</p>
+    </div>
+    <div class="tabInfo" id="technicalissueTab">
+        <h3>Technical Solutions</h3>
+        <p>These are solutions for technical issues</p>
+    </div>
+</div>
 
 
 
