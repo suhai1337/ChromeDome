@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loginPage.css">
+</head>
+<body>
+
+    <div id="container">
+        <div id="headerNav">
+            <ul id="logoBanner">
+                <!-- <li><img src="logo.png" id="logo" height="75px"></li> -->
+                <li><img src="logo.png" id="logo" height="50px"></li>
+                <li class="navLink"><a href="index.html"><h1>Home</h1></a></li>
+                <li class="navLink"><h1>Devices</h1></li>
+                <li class="navLink"><h1>Contact</h1></li>
+                <li class="navLink"><h1>About Us</h1></li>
+                <li class="navLink"><h1>Career</h1></li>
+                <li class="navLink" id="navLogIn"><a href="loginPage.html"><h1>Login</h1></a></li>
+            </ul>
+        </div>
+        <div id="heroContainer">
+            <div id="leftHero">
+                <div id="leftHeroContainer">
+                <div id="leftHeroTitle">
+                    <h2>ChromeDome</h2>
+                </div>
+                <div id="leftHeroContent">
+                    <h1>Welcome to ChromeDome</h1>
+                    <h4>Please enter your details</h4>
+                    <div id="leftHeroForm">
+                        <div id="leftHeroFormEmail">
+                        <label for="emailLogin">Email Address</label><br>
+                        <input type="text" id="emailLogin">
+                        </div>
+                        
+                        <br>
+                        <div id="leftHeroFormPassword">
+                        <label for="passwordLogin">Password</label><br>
+                        <input type="password" id="passwordLogin">
+                        </div>
+                        
+                        <br>
+                        <div id="leftHeroRecall">
+                            <input type="checkbox" id="rememberBox">
+                            <label for="RememberBox">Remember for 30 days</label>
+
+                            <a>Forgot Password?</a>
+                        </div>
+                        
+                        
+                        <button id="loginBtn">Sign In</button>
+
+                        <div id="leftHeroCreate">
+                            <p>Don't have an account? &rarr;Sign up&larr;</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div id="rightHero">
+                <img src="login.jpg" alt="rightImg" id="rightImg">
+            </div>
+
+        </div>
+    </div>
+
+    
+    <script src="loginPage.js"></script>
+</body>
+</html>
